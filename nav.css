@@ -1,0 +1,73 @@
+.nav-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.logo-left {
+  margin-left: 40px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  height: 50px;
+}
+.nav-h a {
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 15px;
+  height: 50px;
+  color: black;
+}
+.nav-h a:hover {
+  border: 2px solid black;
+  color: black;
+  padding: 10px;
+  transition: 0.15s ease;
+  box-sizing: border-box;
+}
+.nav-a a {
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 15px;
+  height: 50px;
+  color: black;
+}
+.nav-a a:hover {
+  border: 2px solid black;
+  color: black;
+  padding: 10px;
+  transition: 0.15s ease;
+  box-sizing: border-box;
+}
+.nav-s a {
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 15px;
+  height: 50px;
+  color: black;
+}
+.nav-s a:hover {
+  border: 2px solid black;
+  color: black;
+  padding: 5px;
+  transition: 0.15s ease;
+  box-sizing: border-box;
+}
+.nav-c a {
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 15px;
+  height: 50px;
+  color: black;
+}
+.nav-c a:hover {
+  border: 2px solid black;
+  color: black;
+  padding: 10px;
+  transition: 0.15s ease;
+  box-sizing: border-box;
+}
