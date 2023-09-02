@@ -2,29 +2,76 @@ section {
   margin-left: 39px;
   margin-right: 39px;
 }
-.m-portfolio {
-  line-height: 15px;
-  font-size: 55px;
+.main-section-sub {
+  display: block;
+}
+.first-s {
+  position: absolute;
+  top: 350px;
+  left: 3%;
+  transform: translateY(-50);
+}
+.tim-name {
+  font-family: montserrat, Arial;
   font-weight: bold;
-  height: 250px;
-  margin-top: 270px;
+  font-size: 36px;
+  margin-bottom: 0;
 }
-.randomword {
-  font-size: 15px;
-  font-weight: 500;
-  width: 450px;
-  line-height: 20px;
+.tim-explain {
+  font-size: 14px;
+  max-width: 55%;
+  min-width: 85%;
 }
-.d-button {
-  height: 30px;
-  color: black;
-  background-color: white;
+.btn-dwncv {
   border: 2px solid black;
-  cursor: pointer;
-  font-weight: bold;
-}
-.d-button:hover {
   background-color: black;
+  padding: 5px;
   color: white;
-  transition: 0.15s;
+  font-weight: bold;
+  transition: 0.15s ease;
+  cursor: pointer;
+}
+.btn-dwncv:hover {
+  background-color: whitesmoke;
+  color: black;
+  border: 2px solid;
+}
+.img-main-smoking {
+  margin-left: 250px;
+}
+.img-smoking {
+  width: 1050px;
+  height: 1080px;
+  mix-blend-mode: multiply;
+  object-fit: contain;
+}
+
+/*SECTION ABOUT*/
+
+#about {
+  height: 950px;
+}
+
+.main-about-title {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 55px;
+  background-color: rgb(68, 68, 68);
+  color: white;
+}
+.imgme-main {
+  width: 55%;
+  margin-right: 0;
+}
+.img-me {
+  width: 55%;
+  object-fit: contain;
+}
+.imageme-aboutme {
+  display: flex;
+  justify-content: center;
+}
+.aboutme {
+  font-size: 2.5em;
+  font-weight: bold;
 }
